@@ -9,7 +9,7 @@ export default class Modal {
   }
 
   toggleModal() {
-    containerModal.classList.toggle('ativo');
+    this.containerModal.classList.toggle('ativo');
   }
 
   eventToggleModal(event) {
@@ -37,3 +37,5 @@ export default class Modal {
     return this;
   }
 }
+
+
